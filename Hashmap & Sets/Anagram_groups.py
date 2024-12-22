@@ -8,7 +8,7 @@ def group_anagrams(strings):
             anagram_groups[canonical] = [string]
 
     return list(anagram_groups.values())
-
+# https://leetcode.com/problems/group-anagrams/description/
 
 print("1st set:")
 print(group_anagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
