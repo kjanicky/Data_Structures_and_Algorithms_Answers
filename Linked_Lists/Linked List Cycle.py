@@ -3,7 +3,7 @@ def remove_duplicates(self):
     previous = None
     current = self.head
 
-    while current:
+    while current: #checking the pointers
         if current.value in values:
             previous.next = current.next
             self.length -= 1
